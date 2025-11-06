@@ -128,3 +128,22 @@ footer {
   .menu-image { width: 95%; }
   .logo { max-width: 160px; }
 }
+@media (max-width: 768px) {
+  .home-content h1 {
+    font-size: 2.2rem;
+    font-family: 'Poppins', 'Arial', sans-serif; /* Police moderne et lisible */
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 0 5px #a3d5ff, 0 1px 12px #2229;
+    letter-spacing: 1px;
+    margin-bottom: 0.3em;
+  }
+  .home-content h1 span {
+    color: #f5a9d0;
+    font-size: 2.4rem;
+    font-family: 'Poppins', 'Arial', sans-serif; /* Garde la simplicité et la visibilité */
+    font-weight: 700;
+    text-shadow: 0 0 7px #fff, 0 1px 10px #a3d5ff;
+    letter-spacing: 2px;
+  }
+}
